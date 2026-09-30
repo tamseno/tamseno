@@ -26,4 +26,7 @@
 
 ### Contributions
 
-![snake](snake.svg)
+<p align="center">
+  <img src="snake.svg" alt="Contribution snake" width="892"/>
+</p>
+<p align="center"><sub><i>watch it eat through a year of commits</i></sub></p>
