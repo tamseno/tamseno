@@ -4,8 +4,6 @@
 
 Co-founder @ RavFlow — AI workflow automation, built with agents
 
-Granada, Spain
-
 </div>
 
 ---
