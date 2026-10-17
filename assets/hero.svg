@@ -1,49 +1,80 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Ezra Tam — AI Systems Engineer">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-label="Ezra Tam — AI Systems Engineer">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#12121a"/>
-      <stop offset="55%" stop-color="#0b0b0f"/>
+      <stop offset="0%" stop-color="#16161f"/>
+      <stop offset="50%" stop-color="#0d0d14"/>
       <stop offset="100%" stop-color="#0a0a08"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0.82" cy="0.3" r="0.55">
-      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.28"/>
+    <radialGradient id="glow" cx="0.82" cy="0.35" r="0.6">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.30"/>
       <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#f59e0b"/>
       <stop offset="100%" stop-color="#fbbf24"/>
     </linearGradient>
+    <clipPath id="round">
+      <rect width="1280" height="420" rx="20"/>
+    </clipPath>
   </defs>
 
-  <rect width="1200" height="340" fill="url(#bg)"/>
-  <rect width="1200" height="340" fill="url(#glow)"/>
+  <g clip-path="url(#round)">
+    <rect width="1280" height="420" fill="url(#bg)"/>
+    <rect width="1280" height="420" fill="url(#glow)"/>
 
-  <!-- faint grid -->
-  <g stroke="#ffffff" stroke-opacity="0.05" stroke-width="1">
-    <line x1="860" y1="0" x2="860" y2="340"/>
-    <line x1="940" y1="0" x2="940" y2="340"/>
-    <line x1="1020" y1="0" x2="1020" y2="340"/>
-    <line x1="1100" y1="0" x2="1100" y2="340"/>
-    <line x1="0" y1="60" x2="1200" y2="60"/>
-    <line x1="0" y1="140" x2="1200" y2="140"/>
-    <line x1="0" y1="220" x2="1200" y2="220"/>
-    <line x1="0" y1="300" x2="1200" y2="300"/>
-  </g>
+    <!-- faint grid -->
+    <g stroke="#ffffff" stroke-opacity="0.045" stroke-width="1">
+      <line x1="0" y1="70" x2="1280" y2="70"/>
+      <line x1="0" y1="140" x2="1280" y2="140"/>
+      <line x1="0" y1="210" x2="1280" y2="210"/>
+      <line x1="0" y1="280" x2="1280" y2="280"/>
+      <line x1="0" y1="350" x2="1280" y2="350"/>
+      <line x1="880" y1="0" x2="880" y2="420"/>
+      <line x1="960" y1="0" x2="960" y2="420"/>
+      <line x1="1040" y1="0" x2="1040" y2="420"/>
+      <line x1="1120" y1="0" x2="1120" y2="420"/>
+      <line x1="1200" y1="0" x2="1200" y2="420"/>
+    </g>
 
-  <!-- accent rings, right side -->
-  <g fill="none" stroke="#f59e0b" stroke-opacity="0.35">
-    <circle cx="1010" cy="170" r="110" stroke-width="1.5"/>
-    <circle cx="1010" cy="170" r="78" stroke-width="1"/>
-    <circle cx="1010" cy="170" r="46" stroke-width="1"/>
-  </g>
-  <circle cx="1010" cy="170" r="6" fill="#f59e0b"/>
+    <!-- orbit rings, right side -->
+    <g fill="none" stroke="#f59e0b">
+      <circle cx="1030" cy="210" r="150" stroke-opacity="0.18" stroke-width="1"/>
+      <circle cx="1030" cy="210" r="110" stroke-opacity="0.30" stroke-width="1" stroke-dasharray="4 8">
+        <animateTransform attributeName="transform" type="rotate" from="0 1030 210" to="360 1030 210" dur="60s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1030" cy="210" r="70" stroke-opacity="0.45" stroke-width="1.2"/>
+    </g>
+    <!-- orbiting dots -->
+    <g>
+      <circle cx="1030" cy="60" r="5" fill="#f59e0b">
+        <animateTransform attributeName="transform" type="rotate" from="0 1030 210" to="360 1030 210" dur="24s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1030" cy="100" r="4" fill="#fbbf24" opacity="0.9">
+        <animateTransform attributeName="transform" type="rotate" from="180 1030 210" to="540 1030 210" dur="36s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1030" cy="210" r="7" fill="#f59e0b">
+        <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+    </g>
 
-  <!-- content -->
-  <g font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
-    <rect x="72" y="58" width="56" height="5" rx="2.5" fill="url(#bar)"/>
-    <text x="72" y="132" font-size="76" font-weight="800" letter-spacing="1" fill="#ffffff">EZRA TAM</text>
-    <text x="74" y="176" font-size="26" font-weight="600" letter-spacing="4" fill="#f59e0b">AI SYSTEMS ENGINEER</text>
-    <text x="74" y="220" font-size="22" fill="#a1a1aa">I build AI systems that ship — safety harnesses, gateways, agents.</text>
-    <text x="74" y="268" font-size="17" fill="#71717a">Granada, Spain · Rust &amp; TypeScript · LLM Safety</text>
+    <!-- left content -->
+    <g font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+      <text x="80" y="108" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" letter-spacing="5" fill="#f59e0b">&gt; HELLO WORLD, I&#8217;M</text>
+      <text x="76" y="196" font-size="92" font-weight="800" letter-spacing="-1" fill="#ffffff">Ezra Tam</text>
+      <text x="80" y="244" font-size="26" font-weight="600" letter-spacing="5" fill="#f59e0b">AI SYSTEMS ENGINEER</text>
+      <text x="80" y="290" font-size="21" fill="#a1a1aa">I build AI systems that ship — safety harnesses, gateways, agents.</text>
+
+      <!-- chips -->
+      <g font-size="15" font-weight="600">
+        <rect x="80" y="316" width="128" height="34" rx="17" fill="#ffffff" fill-opacity="0.06" stroke="#f59e0b" stroke-opacity="0.5"/>
+        <text x="144" y="338" text-anchor="middle" fill="#fbbf24">LLM Safety</text>
+        <rect x="222" y="316" width="104" height="34" rx="17" fill="#ffffff" fill-opacity="0.06" stroke="#f59e0b" stroke-opacity="0.5"/>
+        <text x="274" y="338" text-anchor="middle" fill="#fbbf24">Sub2API</text>
+        <rect x="340" y="316" width="150" height="34" rx="17" fill="#ffffff" fill-opacity="0.06" stroke="#f59e0b" stroke-opacity="0.5"/>
+        <text x="415" y="338" text-anchor="middle" fill="#fbbf24">Coding Agents</text>
+        <rect x="504" y="316" width="142" height="34" rx="17" fill="#ffffff" fill-opacity="0.06" stroke="#f59e0b" stroke-opacity="0.5"/>
+        <text x="575" y="338" text-anchor="middle" fill="#fbbf24">Granada, ES</text>
+      </g>
+    </g>
   </g>
 </svg>

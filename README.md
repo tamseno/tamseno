@@ -1,43 +1,49 @@
 <img src="./assets/hero.svg" alt="Ezra Tam — AI Systems Engineer" width="100%" />
 
 <p align="center">
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.demolab.com/?lines=I+build+AI+systems+that+ship.;LLM+safety+%C2%B7+Sub2API+%C2%B7+Coding+agents;Rust+%26+TypeScript+%C2%B7+Granada%2C+Spain&font=Fira+Code&center=true&width=620&height=45&color=f59e0b&vCenter=true&pause=1000&size=22" alt="Typing SVG" /></a>
+</p>
+
+<p align="center">
   <img src="https://komarev.com/ghpvc/?username=tamseno&color=f59e0b&style=flat-square&label=PROFILE+VIEWS" alt="profile views" />
   &nbsp;
   <img src="https://img.shields.io/github/followers/tamseno?color=f59e0b&style=flat-square&label=FOLLOWERS&logo=github" alt="github followers" />
 </p>
 
-## What I do
+## About me
 
-I build AI systems that ship — not demos, working software. Three threads run through everything I make:
+- 🛡️ **Currently** — LLM safety: adversarial prompting evals & rigor harnesses. Finding where models break, before users do.
+- 🔌 **Building** — **Sub2API**: one gateway for Claude / OpenAI / Gemini / Grok subscriptions. Stop juggling API keys.
+- 🤖 **Also** — coding agents in Rust & TypeScript that do real work: build, test, ship.
+- 📍 **Based in** — Granada, Spain.
 
-| | | |
-|---|---|---|
-| 🛡️ **LLM Safety** | Adversarial prompting evals & rigor harnesses. Finding where models break, before users do. | |
-| 🔌 **Sub2API** | One gateway for Claude / OpenAI / Gemini / Grok subscriptions. Stop juggling API keys. | |
-| 🤖 **Coding Agents** | Agents in Rust & TypeScript that do real work — build, test, ship. | |
+## Tech stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,go,rust,ts,docker,linux,git,vscode,neovim&theme=dark&perline=9" alt="Tech stack" />
+</p>
+
+## GitHub stats
+
+<p align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=tamseno&show_icons=true&hide_border=true&title_color=f59e0b&icon_color=f59e0b&text_color=c9d1d9&bg_color=0d1117" alt="github stats" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tamseno&layout=compact&hide_border=true&title_color=f59e0b&text_color=c9d1d9&bg_color=0d1117" alt="top languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=tamseno&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=8" alt="trophies" />
+</p>
 
 ## Selected work
 
 <p align="center">
-  <a href="https://github.com/tamseno/sub2api"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=tamseno&repo=sub2api&bg_color=FFFFFF&title_color=0A0A0A&text_color=525252&icon_color=F59E0B&border_color=E5E5E5" alt="sub2api" /></a>
-  <a href="https://github.com/tamseno/adversarial-prompting-and-llm-safety"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=tamseno&repo=adversarial-prompting-and-llm-safety&bg_color=FFFFFF&title_color=0A0A0A&text_color=525252&icon_color=F59E0B&border_color=E5E5E5" alt="adversarial-prompting-and-llm-safety" /></a>
-  <a href="https://github.com/tamseno/pi-gemini-harness"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=tamseno&repo=pi-gemini-harness&bg_color=FFFFFF&title_color=0A0A0A&text_color=525252&icon_color=F59E0B&border_color=E5E5E5" alt="pi-gemini-harness" /></a>
-  <a href="https://github.com/tamseno/codex"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=tamseno&repo=codex&bg_color=FFFFFF&title_color=0A0A0A&text_color=525252&icon_color=F59E0B&border_color=E5E5E5" alt="codex" /></a>
+  <a href="https://github.com/tamseno/sub2api"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=tamseno&repo=sub2api&hide_border=true&title_color=f59e0b&icon_color=f59e0b&text_color=c9d1d9&bg_color=0d1117" alt="sub2api" /></a>
+  <a href="https://github.com/tamseno/adversarial-prompting-and-llm-safety"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=tamseno&repo=adversarial-prompting-and-llm-safety&hide_border=true&title_color=f59e0b&icon_color=f59e0b&text_color=c9d1d9&bg_color=0d1117" alt="adversarial-prompting-and-llm-safety" /></a>
+  <a href="https://github.com/tamseno/pi-gemini-harness"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=tamseno&repo=pi-gemini-harness&hide_border=true&title_color=f59e0b&icon_color=f59e0b&text_color=c9d1d9&bg_color=0d1117" alt="pi-gemini-harness" /></a>
+  <a href="https://github.com/tamseno/codex"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=tamseno&repo=codex&hide_border=true&title_color=f59e0b&icon_color=f59e0b&text_color=c9d1d9&bg_color=0d1117" alt="codex" /></a>
 </p>
 
-## Toolbox
-
-**Languages** — Python · Go · Rust · TypeScript
-**AI / LLM** — OpenAI · Anthropic · LLM Safety · Prompt Engineering · Agent Design
-**Infra** — Docker · GitHub Actions · Linux · REST APIs
-**Tools** — Git · VS Code · Neovim
-
-## Activity
-
-<p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=tamseno&show_icons=true&rank_icon=github&bg_color=ffffff&title_color=0a0a0a&text_color=525252&icon_color=F59E0B&border_color=e5e5e5&ring_color=F59E0B" alt="github stats" />
-  <img width="49%" src="https://streak-stats.demolab.com?user=tamseno&background=FFFFFF&border=E5E5E5&stroke=E5E5E5&ring=F59E0B&fire=F59E0B&currStreakNum=0A0A0A&sideNums=525252&currStreakLabel=0A0A0A&sideLabels=0A0A0A&dates=A3A3A3" alt="contribution streak" />
-</p>
+## Contributions
 
 <p align="center">
   <picture>
