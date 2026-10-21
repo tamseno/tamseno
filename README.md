@@ -10,27 +10,13 @@
   <img alt="01 About" src="./assets/h01-light.svg" width="100%">
 </picture>
 
-<table>
-<tr>
-<td width="34%" valign="top">
-<sub><code>BASED IN</code></sub><br>
-Granada, Spain
-<br><br>
-<sub><code>WORKING WITH</code></sub><br>
-TypeScript · React · Electron<br>
-Rust · Python
-</td>
-<td valign="top">
-
 ### I design and build software for working alongside AI agents.
 
 Interfaces people actually think in, and the systems underneath that keep them honest: what an agent sees, what it does, and how you stay in control of both.
 
 I care about calm tools, careful details, and things that still feel fast a year later.
 
-</td>
-</tr>
-</table>
+<sub><code>BASED IN</code></sub> &nbsp; Granada, Spain &nbsp;&nbsp;&nbsp; <sub><code>WORKING WITH</code></sub> &nbsp; TypeScript · React · Electron · Rust · Python
 
 <br>
 
@@ -41,12 +27,13 @@ I care about calm tools, careful details, and things that still feel fast a year
 
 <sub><code>CODE I'M READING CLOSELY</code></sub>
 
-| | Project | Why it's on the desk |
-|:--|:--|:--|
-| `I` | [**rea**](https://github.com/tamseno/rea) | Agents that reverse engineer software, from app behaviour down to native binaries |
-| `II` | [**codex**](https://github.com/tamseno/codex) | A lightweight coding agent that lives in the terminal |
-| `III` | [**nvidia-macos-driver**](https://github.com/tamseno/nvidia-macos-driver) | A Metal driver for GeForce RTX cards on macOS Sequoia, close to the metal |
-| `IV` | [**sub2api**](https://github.com/tamseno/sub2api) | One gateway for Claude, OpenAI, Gemini and Grok subscriptions |
+**[rea](https://github.com/tamseno/rea)** &nbsp; Agents that reverse engineer software, from app behaviour down to native binaries
+
+**[codex](https://github.com/tamseno/codex)** &nbsp; A lightweight coding agent that lives in the terminal
+
+**[nvidia-macos-driver](https://github.com/tamseno/nvidia-macos-driver)** &nbsp; A Metal driver for GeForce RTX cards on macOS Sequoia, close to the metal
+
+**[sub2api](https://github.com/tamseno/sub2api)** &nbsp; One gateway for Claude, OpenAI, Gemini and Grok subscriptions
 
 <br>
 
