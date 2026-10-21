@@ -13,9 +13,6 @@
 <table>
 <tr>
 <td width="34%" valign="top">
-<sub><code>STUDYING</code></sub><br>
-UNED
-<br><br>
 <sub><code>BASED IN</code></sub><br>
 Granada, Spain
 <br><br>
