@@ -1,61 +1,68 @@
-<img src="./assets/hero.svg" alt="Ezra Tam — AI Systems Engineer" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+  <img alt="Ezra Tam — Software, AI agents, systems. Granada, Spain." src="./assets/hero-light.svg" width="100%">
+</picture>
 
-<p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.demolab.com/?lines=I+build+AI+systems+that+ship.;LLM+safety+%C2%B7+Sub2API+%C2%B7+Coding+agents;Rust+%26+TypeScript+%C2%B7+Granada%2C+Spain&font=Fira+Code&center=true&width=620&height=45&color=f59e0b&vCenter=true&pause=1000&size=22" alt="Typing SVG" /></a>
-</p>
+<br><br>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=tamseno&color=f59e0b&style=flat-square&label=PROFILE+VIEWS" alt="profile views" />
-  &nbsp;
-  <img src="https://img.shields.io/github/followers/tamseno?color=f59e0b&style=flat-square&label=FOLLOWERS&logo=github" alt="github followers" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/h01-dark.svg">
+  <img alt="01 About" src="./assets/h01-light.svg" width="100%">
+</picture>
 
-## About me
+<table>
+<tr>
+<td width="34%" valign="top">
+<sub><code>STUDYING</code></sub><br>
+UNED
+<br><br>
+<sub><code>BASED IN</code></sub><br>
+Granada, Spain
+<br><br>
+<sub><code>WORKING WITH</code></sub><br>
+TypeScript · React · Electron<br>
+Rust · Python
+</td>
+<td valign="top">
 
-- 🛡️ **Currently** — LLM safety: adversarial prompting evals & rigor harnesses. Finding where models break, before users do.
-- 🔌 **Building** — **Sub2API**: one gateway for Claude / OpenAI / Gemini / Grok subscriptions. Stop juggling API keys.
-- 🤖 **Also** — coding agents in Rust & TypeScript that do real work: build, test, ship.
-- 📍 **Based in** — Granada, Spain.
+### I design and build software for working alongside AI agents.
 
-## Tech stack
+Interfaces people actually think in, and the systems underneath that keep them honest: what an agent sees, what it does, and how you stay in control of both.
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,go,rust,ts,docker,linux,git,vscode,neovim&theme=dark&perline=9" alt="Tech stack" />
-</p>
+I care about calm tools, careful details, and things that still feel fast a year later.
 
-## GitHub stats
+</td>
+</tr>
+</table>
 
-<p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=tamseno&show_icons=true&hide_border=true&title_color=f59e0b&icon_color=f59e0b&text_color=c9d1d9&bg_color=0d1117" alt="github stats" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tamseno&layout=compact&hide_border=true&title_color=f59e0b&text_color=c9d1d9&bg_color=0d1117" alt="top languages" />
-</p>
+<br>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=tamseno&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=8" alt="trophies" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/h02-dark.svg">
+  <img alt="02 Field notes" src="./assets/h02-light.svg" width="100%">
+</picture>
 
-## Selected work
+<sub><code>CODE I'M READING CLOSELY</code></sub>
 
-<p align="center">
-  <a href="https://github.com/tamseno/sub2api"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=tamseno&repo=sub2api&hide_border=true&title_color=f59e0b&icon_color=f59e0b&text_color=c9d1d9&bg_color=0d1117" alt="sub2api" /></a>
-  <a href="https://github.com/tamseno/adversarial-prompting-and-llm-safety"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=tamseno&repo=adversarial-prompting-and-llm-safety&hide_border=true&title_color=f59e0b&icon_color=f59e0b&text_color=c9d1d9&bg_color=0d1117" alt="adversarial-prompting-and-llm-safety" /></a>
-  <a href="https://github.com/tamseno/pi-gemini-harness"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=tamseno&repo=pi-gemini-harness&hide_border=true&title_color=f59e0b&icon_color=f59e0b&text_color=c9d1d9&bg_color=0d1117" alt="pi-gemini-harness" /></a>
-  <a href="https://github.com/tamseno/codex"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=tamseno&repo=codex&hide_border=true&title_color=f59e0b&icon_color=f59e0b&text_color=c9d1d9&bg_color=0d1117" alt="codex" /></a>
-</p>
+| | Project | Why it's on the desk |
+|:--|:--|:--|
+| `I` | [**rea**](https://github.com/tamseno/rea) | Agents that reverse engineer software, from app behaviour down to native binaries |
+| `II` | [**codex**](https://github.com/tamseno/codex) | A lightweight coding agent that lives in the terminal |
+| `III` | [**nvidia-macos-driver**](https://github.com/tamseno/nvidia-macos-driver) | A Metal driver for GeForce RTX cards on macOS Sequoia, close to the metal |
+| `IV` | [**sub2api**](https://github.com/tamseno/sub2api) | One gateway for Claude, OpenAI, Gemini and Grok subscriptions |
 
-## Contributions
+<br>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tamseno/tamseno/output/github-contribution-grid-snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/tamseno/tamseno/output/github-contribution-grid-snake.svg" alt="contribution snake" />
-  </picture>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/h03-dark.svg">
+  <img alt="03 Elsewhere" src="./assets/h03-light.svg" width="100%">
+</picture>
 
----
+<sub><code>GITHUB</code></sub> &nbsp; [@tamseno](https://github.com/tamseno) &nbsp;&nbsp;&nbsp; <sub><code>REPOSITORIES</code></sub> &nbsp; [github.com/tamseno?tab=repositories](https://github.com/tamseno?tab=repositories)
 
-<p align="center">
-  <a href="https://github.com/tamseno"><img src="https://img.shields.io/badge/GitHub-tamseno-0a0a0a?style=for-the-badge&logo=github&logoColor=white" alt="github" /></a>
-</p>
+<br>
 
-<p align="center"><sub>© 2026 Ezra Tam · Granada, Spain</sub></p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg">
+  <img alt="tamseno" src="./assets/footer-light.svg" width="100%">
+</picture>
